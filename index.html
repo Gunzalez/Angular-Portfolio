@@ -1,0 +1,36 @@
+<!doctype html>
+<html ng-app="portfolioApp">
+<head>
+    <meta charset="utf-8">
+    <title>Ségun Konibire's online portfolio.</title>
+    <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/angular.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body data-ng-controller="PortfolioListCtrl">
+    <header>
+        <h1>Ségun Konibire</h1>
+        <p>UX Designer &amp; Web Application Developer</p>
+    </header>
+    <section>
+        <ul>
+            <li data-ng-repeat="example in examples">
+                <a href="{{example.link}}" target="_blank">
+                    <img data-ng-src="{{example.image}}" data-tiles="{{example.tiles}}" alt="{{example.name}}">
+                    <p data-ng-bind="example.description"></p>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <ul>
+            <li data-ng-repeat="link in social">
+                <a href="{{link.url}}" target="_blank" data-ng-bind="link.icon"></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

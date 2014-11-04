@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'baffledregular';
+  src: url("baffled-regular-webfont.eot");
+  src: url("baffled-regular-webfont.eot?#iefix") format("embedded-opentype"), url("baffled-regular-webfont.woff2") format("woff2"), url("baffled-regular-webfont.woff") format("woff"), url("baffled-regular-webfont.ttf") format("truetype"), url("baffled-regular-webfont.svg#baffledregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../images/bg.jpg) 0 0;
+  color: #fff;
+  font-family: 'Signika', sans-serif;
+}
+body header {
+  margin: 50px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+body header h1 {
+  font-size: 3.0em;
+  margin: 0;
+  padding: 0;
+}
+body header p {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 1.8em;
+}
+body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body section ul {
+  width: 100%;
+  float: left;
+}
+body section ul li {
+  width: 25%;
+  float: left;
+}
+body section ul li a {
+  display: block;
+  cursor: default;
+}
+body section ul li a img {
+  width: 100%;
+  display: block;
+}
+body section ul li a p {
+  display: none;
+}
+body footer {
+  clear: left;
+  padding: 40px 0;
+}
+body footer ul {
+  text-align: center;
+}
+body footer ul li {
+  display: inline-block;
+}
+body footer ul li a {
+  display: block;
+  padding: 30px 0;
+  color: #333;
+  text-decoration: none;
+  font-size: 3.0em;
+  width: 120px;
+  text-align: center;
+  font-family: 'baffledregular';
+  -webkit-transition: background 0.75s;
+  -moz-transition: background 0.75s;
+  -o-transition: background 0.75s;
+  transition: background 0.75s;
+}
+body footer ul li a:hover {
+  color: #fff;
+  background-color: #000;
+  -webkit-transition: background 0.75s;
+  -moz-transition: background 0.75s;
+  -o-transition: background 0.75s;
+  transition: background 0.75s;
+}
