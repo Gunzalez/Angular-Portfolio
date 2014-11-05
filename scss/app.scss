@@ -1,15 +1,4 @@
-@font-face {
-    font-family: 'baffledregular';
-    src: url('baffled-regular-webfont.eot');
-    src: url('baffled-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('baffled-regular-webfont.woff2') format('woff2'),
-    url('baffled-regular-webfont.woff') format('woff'),
-    url('baffled-regular-webfont.ttf') format('truetype'),
-    url('baffled-regular-webfont.svg#baffledregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
+@import 'fonts';
 
 @mixin transition($property: all, $speed: 0.4s){
     -webkit-transition: $property $speed;
@@ -23,7 +12,7 @@ body {
     padding: 0;
     background: url(../images/bg.jpg) 0 0;
     color: #fff;
-    font-family: 'Signika', sans-serif;
+    font-family: 'signikalight';
 
     header {
         margin: 50px 0;
@@ -38,7 +27,7 @@ body {
 
         p {
             margin: 0;
-            padding: 5px 0;
+            padding: 4px 0;
             font-size: 1.8em;
         }
     }

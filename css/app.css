@@ -1,7 +1,39 @@
 @font-face {
   font-family: 'baffledregular';
-  src: url("baffled-regular-webfont.eot");
-  src: url("baffled-regular-webfont.eot?#iefix") format("embedded-opentype"), url("baffled-regular-webfont.woff2") format("woff2"), url("baffled-regular-webfont.woff") format("woff"), url("baffled-regular-webfont.ttf") format("truetype"), url("baffled-regular-webfont.svg#baffledregular") format("svg");
+  src: url("fonts/baffled-regular-webfont.eot");
+  src: url("fonts/baffled-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/baffled-regular-webfont.woff2") format("woff2"), url("fonts/baffled-regular-webfont.woff") format("woff"), url("fonts/baffled-regular-webfont.ttf") format("truetype"), url("fonts/baffled-regular-webfont.svg#baffledregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'signikabold';
+  src: url("fonts/signika-bold-webfont.eot");
+  src: url("fonts/signika-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/signika-bold-webfont.woff2") format("woff2"), url("fonts/signika-bold-webfont.woff") format("woff"), url("fonts/signika-bold-webfont.ttf") format("truetype"), url("fonts/signika-bold-webfont.svg#signikabold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'signikaregular';
+  src: url("fonts/signika-regular-webfont.eot");
+  src: url("fonts/signika-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/signika-regular-webfont.woff2") format("woff2"), url("fonts/signika-regular-webfont.woff") format("woff"), url("fonts/signika-regular-webfont.ttf") format("truetype"), url("fonts/signika-regular-webfont.svg#signikaregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'signikalight';
+  src: url("fonts/signika-light-webfont.eot");
+  src: url("fonts/signika-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/signika-light-webfont.woff2") format("woff2"), url("fonts/signika-light-webfont.woff") format("woff"), url("fonts/signika-light-webfont.ttf") format("truetype"), url("fonts/signika-light-webfont.svg#signikalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'signikasemibold';
+  src: url("fonts/signika-semibold-webfont.eot");
+  src: url("fonts/signika-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/signika-semibold-webfont.woff2") format("woff2"), url("fonts/signika-semibold-webfont.woff") format("woff"), url("fonts/signika-semibold-webfont.ttf") format("truetype"), url("fonts/signika-semibold-webfont.svg#signikasemibold") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -11,7 +43,7 @@ body {
   padding: 0;
   background: url(../images/bg.jpg) 0 0;
   color: #fff;
-  font-family: 'Signika', sans-serif;
+  font-family: 'signikalight';
 }
 body header {
   margin: 50px 0;
@@ -25,7 +57,7 @@ body header h1 {
 }
 body header p {
   margin: 0;
-  padding: 5px 0;
+  padding: 4px 0;
   font-size: 1.8em;
 }
 body ul {
