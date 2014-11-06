@@ -15,7 +15,7 @@
     <section>
         <ul>
             <li data-ng-repeat="example in examples">
-                <a href="{{example.link}}" target="_blank">
+                <a data-ng-href="{{example.link}}" target="_blank" data-ng-click="showDetails($index, $event)">
                     <img data-ng-src="{{example.image}}" data-tiles="{{example.tiles}}" alt="{{example.name}}">
                     <p data-ng-bind="example.description"></p>
                 </a>
@@ -25,9 +25,14 @@
     <footer>
         <ul>
             <li data-ng-repeat="link in social">
-                <a href="{{link.url}}" target="_blank" data-ng-bind="link.icon"></a>
+                <a data-ng-href="{{link.url}}" target="_blank" data-ng-bind="link.icon"></a>
             </li>
         </ul>
     </footer>
+    <div class="detail" data-ng-show="detail.display" data-ng-click="hideDetails()">
+        <h2 data-ng-bind="detail.title"></h2>
+        <img data-ng-src="{{detail.image}}" alt="{{detail.title}}">
+        <p>{{detail.description}}</p>
+    </div>
 </body>
 </html>

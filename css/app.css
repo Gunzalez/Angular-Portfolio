@@ -38,7 +38,14 @@
   font-style: normal;
 }
 
+html, body {
+  margin: 0;
+  min-height: 100%;
+}
+
 body {
+  position: relative;
+  /* needed for the overlay to extend when you scroll */
   margin: 0;
   padding: 0;
   background: url(../images/bg.jpg) 0 0;
@@ -46,7 +53,7 @@ body {
   font-family: 'signikalight';
 }
 body header {
-  margin: 50px 0;
+  padding: 50px 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -115,4 +122,26 @@ body footer ul li a:hover {
   -moz-transition: background 0.75s;
   -o-transition: background 0.75s;
   transition: background 0.75s;
+}
+body .detail {
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  background: rgba(0, 0, 0, 0.9);
+  padding-top: 190px;
+  text-align: center;
+}
+body .detail h2,
+body .detail p {
+  width: 480px;
+  margin: 0 auto;
+  padding: 20px 0;
+  line-height: 130%;
+  text-align: left;
+}
+body .detail h2 {
+  text-transform: uppercase;
 }
