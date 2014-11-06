@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    position: relative; /* needed for the overlay to extend when you scroll */
+    position: relative;
     margin: 0;
     padding: 0;
     background: url(../images/bg.jpg) 0 0;
@@ -28,12 +28,12 @@ body {
         h1 {
             font-size: 3.0em;
             margin: 0;
-            padding: 0;
+            padding: 0 30px;
         }
 
         p {
             margin: 0;
-            padding: 4px 0;
+            padding: 4px 30px;
             font-size: 1.8em;
         }
     }
@@ -55,7 +55,7 @@ body {
 
                 a {
                     display: block;
-                    cursor: default;
+                    text-decoration: none;
 
                     img {
                         width: 100%;
@@ -103,7 +103,6 @@ body {
 
     .detail {
         position: absolute;
-        background-color: #000;
         top: 0;
         bottom: 0;
         width: 100%;
@@ -123,6 +122,45 @@ body {
 
         h2 {
             text-transform: uppercase;
+        }
+    }
+}
+
+@media only screen and (max-width: 1301px) {
+    body {
+        section {
+            ul {
+
+                li {
+                    width: 33.33333%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1001px) {
+    body {
+        section {
+            ul {
+
+                li {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    body {
+        section {
+            ul {
+
+                li {
+                    width: 100%;
+                }
+            }
         }
     }
 }

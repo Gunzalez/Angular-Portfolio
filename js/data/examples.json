@@ -24,14 +24,6 @@
         "link":"http://www.bumithomas.com/"
     },
     {
-        "name": "Bally History",
-        "type": "Website",
-        "tiles":"1",
-        "image":"images/examples/bally.jpg",
-        "description":"Scroll triggered animations. A simple campaign site celebration 160 years of craftsmanship.",
-        "link":"#"
-    },
-    {
         "name": "Bally Everest",
         "type": "Website",
         "tiles":"1",
@@ -102,29 +94,5 @@
         "image":"images/examples/patternstudios-1.jpg",
         "description":"Responsive website, powered by WordPress, my best responsive work but may never go live, sniff.",
         "link":"http://patternstudios.com/what-we-do/"
-    },
-    {
-        "name": "Target",
-        "type": "app",
-        "tiles":"1",
-        "image":"images/examples/target.jpg",
-        "description":"iPad only campaign web mobile application. HTML5 and CSS3 used for the targeted device.",
-        "link":"#"
-    },
-    {
-        "name": "Fiat Ecovile",
-        "type": "Website",
-        "tiles":"1",
-        "image":"images/examples/ecoville.jpg",
-        "description":"Online fuel saving application for FIAT. Backend integration into .NET MVC2 framework, with considerable use of canvas for data visualisation.",
-        "link":"https://www.fiatecodrivefleet.com/"
-    },
-    {
-        "name": "Day And Night Brushing",
-        "type": "Website",
-        "tiles":"1",
-        "image":"images/examples/dayandnight.jpg",
-        "description":"Integration into N2 Open Source ASP.NET content management tool. Localisation of video content to serve seven different languages.",
-        "link":"http://www.brushdayandnight.com/"
     }
 ]
