@@ -12,7 +12,7 @@
         "type": "Website",
         "tiles":"3",
         "image":"images/examples/netjets-1.jpg",
-        "description":"Frontend development using the IBM WebSphere Portal, innovative JavaScript/Flash integration and collaborative team work across 4 continents.",
+        "description":"Frontend development using the IBM WebSphere Portal, collaborative team work across 4 continents.",
         "link":"http://www.netjetseurope.com/"
     },
     {
@@ -20,7 +20,7 @@
         "type": "Website",
         "tiles":"2",
         "image":"images/examples/bumi-1.jpg",
-        "description":"Single page website, intelligent use of JavaScript. Basic WordPress backend solution, offering client easy site maintenance.",
+        "description":"Single page website, WordPress powered solution, offering client easy site maintenance.",
         "link":"http://www.bumithomas.com/"
     },
     {
@@ -28,7 +28,7 @@
         "type": "Website",
         "tiles":"1",
         "image":"images/examples/everest.jpg",
-        "description":"Marking 60 years since the amazing achievement, this reverse scrolling parallax website take a look at the significance of the Bally boot and the materials involved.",
+        "description":"A reverse scrolling parallax website, shows of the significance of the Bally boot and the materials involved.",
         "link":"#"
     },
     {
@@ -36,7 +36,7 @@
         "type": "Website",
         "tiles":"1",
         "image":"images/examples/max.jpg",
-        "description":"A few templates for the luxury fashion house as they look to rebuild their website. The use of media queries to provide a solution allowing clients improved access to their goods, desktop or mobile.",
+        "description":"Responsive templates for the luxury fashion, a solution to increase sales across desktop and/or mobile.",
         "link":"#"
     },
     {
@@ -60,7 +60,7 @@
         "type": "module",
         "tiles":"3",
         "image":"images/examples/samsung.jpg",
-        "description":"Explore this room in a 3D-like flythrough, showcasing the very smart Samsung Smart TV. Fun with JavaScript and clever imagery.",
+        "description":"A 3D-like fly-through, showcasing the very smart Samsung Smart TV, fun with JavaScript and clever imagery.",
         "link":"http://www.richersounds.com/information/samsung"
     },
     {
@@ -76,7 +76,7 @@
         "type": "app",
         "tiles":"3",
         "image":"images/examples/vw-2.jpg",
-        "description":"Bespoke application for a car configurator, use of advanced JavaScript patterns and collaborative team work across 2 countries.",
+        "description":"Bespoke application for a car configurator, use of advanced JavaScript patterns.",
         "link":"http://www.vw.com/portal/en/configurator"
     },
     {
@@ -84,7 +84,7 @@
         "type": "app",
         "tiles":"3",
         "image":"images/examples/nissan-1.jpg",
-        "description":"Innovative use of media queries to target multiple devices, customisation of css framework. JavaScript widget development and extensive CSS3.",
+        "description":"Customisation css framework, JavaScript widget development and CSS3 transitions.",
         "link":"http://www.vw.com/portal/en/configurator"
     },
     {

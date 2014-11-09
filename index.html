@@ -3,6 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>Ségun Konibire's online portfolio.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="Gunzalez, Ségun, Konibire, Ségun Konibire, Sheg, Shegun, Shegun Konibire, Web, Developer, Designer, Internet, Programmer, Technologist, JavaScript, CSS, HTML, HTML5, jQuery, PHP, WordPress, Arsenal" />
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.gunzalez.com/images/favicon.ico">
     <link rel="stylesheet" href="css/app.css">
     <script src="js/angular.min.js"></script>
     <script src="js/app.js"></script>
@@ -10,15 +13,17 @@
 <body data-ng-controller="PortfolioListCtrl">
     <header>
         <h1>Ségun Konibire</h1>
-        <p>UX&nbsp;Designer, Website &amp; Web&nbsp;Apps Developer</p>
+        <p>Websites. Web&nbsp;Apps. User&nbsp;Experience.</p>
     </header>
     <section>
         <ul>
             <li data-ng-repeat="example in examples">
-                <a data-ng-href="{{example.link}}" target="_blank" data-ng-click="showDetails($index, $event)">
+                <div class="example" target="_blank" data-ng-click="showDetails($index, $event)">
                     <img data-ng-src="{{example.image}}" data-tiles="{{example.tiles}}" alt="{{example.name}}">
-                    <p data-ng-bind="example.description"></p>
-                </a>
+                    <div class="description">
+                        <p data-ng-bind="example.description"></p>
+                    </div>
+                </div>
             </li>
         </ul>
     </section>

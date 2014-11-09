@@ -53,17 +53,36 @@ body {
                 width: 25%;
                 float: left;
 
-                a {
-                    display: block;
-                    text-decoration: none;
+                .example {
+                    position: relative;
+                    overflow: hidden;
+
+                    .description {
+                        position: absolute;
+                        top: 100%;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                        background: rgb(0, 0, 0);
+                        background: rgba(0, 0, 0, 0.90);
+                        @include transition(top, 0.25s);
+
+                        p {
+                            padding: 15px 20px;
+                            margin: 0;
+                        }
+                    }
 
                     img {
                         width: 100%;
                         display: block;
                     }
 
-                    p {
-                        display: none;
+                    &:hover {
+                        .description {
+                            top: 160px;
+                            @include transition(top, 0.25s);
+                        }
                     }
                 }
             }
@@ -75,7 +94,8 @@ body {
         padding: 40px 0;
 
         ul {
-            text-align: center;
+            margin: 0 auto;
+            width: 480px;
 
             li {
                 display: inline-block;
@@ -110,6 +130,7 @@ body {
         background: rgba(0, 0, 0, 0.90);
         padding-top: 190px;
         text-align: center;
+        @include transition(padding,0.75s);
 
         h2,
         p {
@@ -146,11 +167,41 @@ body {
 
                 li {
                     width: 50%;
+
+                    .example {
+                        &:hover {
+                            .description {
+                                top: 200px;
+                            }
+                        }
+                    }
                 }
             }
         }
     }
 }
+
+@media only screen and (max-width: 870px) {
+    body {
+        section {
+            ul {
+
+                li {
+                    width: 50%;
+
+                    .example {
+                        &:hover {
+                            .description {
+                                top: 140px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 @media only screen and (max-width: 601px) {
     body {
@@ -159,7 +210,58 @@ body {
 
                 li {
                     width: 100%;
+
+                    .example {
+                        &:hover {
+                            .description {
+                                top: 280px;
+                            }
+                        }
+                    }
                 }
+            }
+        }
+
+        footer {
+            ul {
+                width: 240px;
+            }
+        }
+
+        .detail {
+            padding-top: 90px;
+            text-align: center;
+            @include transition(padding,0.75s);
+
+            h2,
+            p {
+                width: auto;
+                margin: 0 auto;
+                padding: 20px 30px;
+                line-height: 130%;
+                text-align: left;
+            }
+
+            img {
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    body {
+        section {
+            ul {
+
+                li {
+                }
+            }
+        }
+        .detail {
+            img {
+                width: 100%;
             }
         }
     }

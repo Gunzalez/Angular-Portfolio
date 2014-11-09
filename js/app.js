@@ -1,10 +1,6 @@
 
 angular.module('portfolioApp', [])
 
-    .run(['$anchorScroll', function($anchorScroll) {
-        $anchorScroll.yOffset = 50;   // always scroll by 50 extra pixels
-    }])
-
     .controller('PortfolioListCtrl', ['$anchorScroll', '$scope', '$http',
         function ($anchorScroll, $scope, $http) {
             $http.get('js/data/examples.json').success(function(data) {
