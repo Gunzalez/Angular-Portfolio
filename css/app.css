@@ -91,10 +91,10 @@ body section ul li .example .description {
   right: 0;
   background: black;
   background: rgba(0, 0, 0, 0.9);
-  -webkit-transition: top 0.25s;
-  -moz-transition: top 0.25s;
-  -o-transition: top 0.25s;
-  transition: top 0.25s;
+  -webkit-transition: top 0.75s;
+  -moz-transition: top 0.75s;
+  -o-transition: top 0.75s;
+  transition: top 0.75s;
 }
 body section ul li .example .description p {
   padding: 15px 20px;

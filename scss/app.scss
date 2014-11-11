@@ -65,7 +65,7 @@ body {
                         right: 0;
                         background: rgb(0, 0, 0);
                         background: rgba(0, 0, 0, 0.90);
-                        @include transition(top, 0.25s);
+                        @include transition(top, 0.75s);
 
                         p {
                             padding: 15px 20px;

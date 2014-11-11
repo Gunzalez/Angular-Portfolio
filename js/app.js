@@ -1,22 +1,45 @@
-
 angular.module('portfolioApp', [])
 
-    .controller('PortfolioListCtrl', ['$anchorScroll', '$scope', '$http',
-        function ($anchorScroll, $scope, $http) {
-            $http.get('js/data/examples.json').success(function(data) {
+    .factory("Portfolio", ['$http', '$log',
+
+        function($http, $log){
+
+            "use strict";
+            var self = {};
+
+            self.getExamples = function() {
+                return $http.get('js/data/examples.json');
+            };
+
+            self.getSocial = function() {
+                return $http.get('js/data/social.json');
+            };
+
+            return self;
+        }
+    ])
+
+    .controller('PortfolioListCtrl', ['$anchorScroll', '$scope', 'Portfolio',
+
+        function ($anchorScroll, $scope, Portfolio) {
+
+            Portfolio.getExamples().success(function(data) {
                 $scope.examples = data.sort(function() {
                     return 0.5 - Math.random();
                 });
             });
-            $http.get('js/data/social.json').success(function(data) {
+
+            Portfolio.getSocial().success(function(data) {
                 $scope.social = data;
             });
+
             $scope.detail = {
                 "display": false,
-                "title":"",
-                "image":"",
-                "description":""
+                "title": "",
+                "image": "",
+                "description": ""
             };
+
             $scope.showDetails = function(index, event){
                 event.preventDefault();
                 $scope.detail.title = $scope.examples[index].name;
@@ -25,9 +48,9 @@ angular.module('portfolioApp', [])
                 $scope.detail.display = true;
                 $anchorScroll();
             };
+
             $scope.hideDetails = function(){
                 $scope.detail.display = false;
             }
         }
     ]);
-
