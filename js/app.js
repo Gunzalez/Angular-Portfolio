@@ -1,8 +1,8 @@
 angular.module('portfolioApp', [])
 
-    .factory("Portfolio", ['$http', '$log',
+    .factory("Portfolio", ['$http',
 
-        function($http, $log){
+        function($http){
 
             "use strict";
             var self = {};
