@@ -52,6 +52,7 @@ body {
             li {
                 width: 25%;
                 float: left;
+                cursor: pointer;
 
                 .example {
                     position: relative;
@@ -132,13 +133,25 @@ body {
         text-align: center;
         @include transition(padding,0.75s);
 
+        img {
+            padding-bottom: 15px;
+        }
+
         h2,
         p {
             width: 480px;
             margin: 0 auto;
-            padding: 20px 0;
+            padding:  0 0 15px 0;
             line-height: 130%;
             text-align: left;
+
+            a {
+                color: #cccccc;
+
+                &:hover {
+                    color: #ffffff;
+                }
+            }
         }
 
         h2 {
@@ -266,3 +279,5 @@ body {
         }
     }
 }
+
+// If you're looking at this and thinking, nesting is too deep, you are right! I was new to SASS and overdid it a little

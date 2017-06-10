@@ -45,6 +45,12 @@ angular.module('portfolioApp', [])
                 $scope.detail.title = $scope.examples[index].name;
                 $scope.detail.image = $scope.examples[index].image;
                 $scope.detail.description = $scope.examples[index].description;
+                $scope.detail.link = $scope.examples[index].link;
+                if($scope.examples[index].link == '#'){
+                    $scope.detail.url = false;
+                } else {
+                    $scope.detail.url = true;
+                }
                 $scope.detail.display = true;
                 $anchorScroll();
             };

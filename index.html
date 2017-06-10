@@ -10,7 +10,7 @@
     <script src="js/angular.min.js"></script>
     <script src="js/app.js"></script>
 
-    <!-- That's right, there is no jQuery on this page -->
+    <!-- That's right buddy, no jQuery on this page -->
 
 </head>
 <body data-ng-controller="PortfolioListCtrl">
@@ -24,7 +24,7 @@
                 <div class="example" target="_blank" data-ng-click="showDetails($index, $event)">
                     <img data-ng-src="{{example.image}}" data-tiles="{{example.tiles}}" alt="{{example.name}}">
                     <div class="description">
-                        <p data-ng-bind="example.description"></p>
+                        <p data-ng-bind="example.intro"></p>
                     </div>
                 </div>
             </li>
@@ -41,6 +41,7 @@
         <h2 data-ng-bind="detail.title"></h2>
         <img data-ng-src="{{detail.image}}" alt="{{detail.title}}">
         <p>{{detail.description}}</p>
+        <p data-ng-show="detail.url"><a href="{{detail.link}}" target="_blank">{{detail.link}}</a></p>
     </div>
 </body>
 </html>

@@ -38,11 +38,13 @@
   font-style: normal;
 }
 
+/* line 10, ../scss/app.scss */
 html, body {
   margin: 0;
   min-height: 100%;
 }
 
+/* line 15, ../scss/app.scss */
 body {
   position: relative;
   margin: 0;
@@ -51,38 +53,47 @@ body {
   color: #fff;
   font-family: 'signikalight';
 }
+/* line 23, ../scss/app.scss */
 body header {
   padding: 50px 0;
   text-align: center;
   text-transform: uppercase;
 }
+/* line 28, ../scss/app.scss */
 body header h1 {
   font-size: 3.0em;
   margin: 0;
   padding: 0 30px;
 }
+/* line 34, ../scss/app.scss */
 body header p {
   margin: 0;
   padding: 4px 30px;
   font-size: 1.8em;
 }
+/* line 41, ../scss/app.scss */
 body ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+/* line 48, ../scss/app.scss */
 body section ul {
   width: 100%;
   float: left;
 }
+/* line 52, ../scss/app.scss */
 body section ul li {
   width: 25%;
   float: left;
+  cursor: pointer;
 }
+/* line 57, ../scss/app.scss */
 body section ul li .example {
   position: relative;
   overflow: hidden;
 }
+/* line 61, ../scss/app.scss */
 body section ul li .example .description {
   position: absolute;
   top: 100%;
@@ -96,14 +107,17 @@ body section ul li .example .description {
   -o-transition: top 0.75s;
   transition: top 0.75s;
 }
+/* line 71, ../scss/app.scss */
 body section ul li .example .description p {
   padding: 15px 20px;
   margin: 0;
 }
+/* line 77, ../scss/app.scss */
 body section ul li .example img {
   width: 100%;
   display: block;
 }
+/* line 83, ../scss/app.scss */
 body section ul li .example:hover .description {
   top: 160px;
   -webkit-transition: top 0.25s;
@@ -111,17 +125,21 @@ body section ul li .example:hover .description {
   -o-transition: top 0.25s;
   transition: top 0.25s;
 }
+/* line 93, ../scss/app.scss */
 body footer {
   clear: left;
   padding: 40px 0;
 }
+/* line 97, ../scss/app.scss */
 body footer ul {
   margin: 0 auto;
   width: 480px;
 }
+/* line 101, ../scss/app.scss */
 body footer ul li {
   display: inline-block;
 }
+/* line 104, ../scss/app.scss */
 body footer ul li a {
   display: block;
   padding: 30px 0;
@@ -136,6 +154,7 @@ body footer ul li a {
   -o-transition: background 0.75s;
   transition: background 0.75s;
 }
+/* line 115, ../scss/app.scss */
 body footer ul li a:hover {
   color: #fff;
   background-color: #000;
@@ -144,6 +163,7 @@ body footer ul li a:hover {
   -o-transition: background 0.75s;
   transition: background 0.75s;
 }
+/* line 125, ../scss/app.scss */
 body .detail {
   position: absolute;
   top: 0;
@@ -158,49 +178,74 @@ body .detail {
   -o-transition: padding 0.75s;
   transition: padding 0.75s;
 }
+/* line 136, ../scss/app.scss */
+body .detail img {
+  padding-bottom: 15px;
+}
+/* line 141, ../scss/app.scss */
 body .detail h2,
 body .detail p {
   width: 480px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 0 0 15px 0;
   line-height: 130%;
   text-align: left;
 }
+/* line 148, ../scss/app.scss */
+body .detail h2 a,
+body .detail p a {
+  color: #cccccc;
+}
+/* line 151, ../scss/app.scss */
+body .detail h2 a:hover,
+body .detail p a:hover {
+  color: #ffffff;
+}
+/* line 157, ../scss/app.scss */
 body .detail h2 {
   text-transform: uppercase;
 }
 
 @media only screen and (max-width: 1301px) {
+  /* line 168, ../scss/app.scss */
   body section ul li {
     width: 33.33333%;
   }
 }
 @media only screen and (max-width: 1001px) {
+  /* line 181, ../scss/app.scss */
   body section ul li {
     width: 50%;
   }
+  /* line 186, ../scss/app.scss */
   body section ul li .example:hover .description {
     top: 200px;
   }
 }
 @media only screen and (max-width: 870px) {
+  /* line 202, ../scss/app.scss */
   body section ul li {
     width: 50%;
   }
+  /* line 207, ../scss/app.scss */
   body section ul li .example:hover .description {
     top: 140px;
   }
 }
 @media only screen and (max-width: 601px) {
+  /* line 224, ../scss/app.scss */
   body section ul li {
     width: 100%;
   }
+  /* line 229, ../scss/app.scss */
   body section ul li .example:hover .description {
     top: 280px;
   }
+  /* line 239, ../scss/app.scss */
   body footer ul {
     width: 240px;
   }
+  /* line 244, ../scss/app.scss */
   body .detail {
     padding-top: 90px;
     text-align: center;
@@ -209,6 +254,7 @@ body .detail h2 {
     -o-transition: padding 0.75s;
     transition: padding 0.75s;
   }
+  /* line 250, ../scss/app.scss */
   body .detail h2,
   body .detail p {
     width: auto;
@@ -217,11 +263,13 @@ body .detail h2 {
     line-height: 130%;
     text-align: left;
   }
+  /* line 258, ../scss/app.scss */
   body .detail img {
     width: auto;
   }
 }
 @media only screen and (max-width: 480px) {
+  /* line 276, ../scss/app.scss */
   body .detail img {
     width: 100%;
   }
