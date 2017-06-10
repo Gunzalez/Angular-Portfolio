@@ -135,12 +135,12 @@
         "link":"http://gunzalez.com/pp/firmbeliefs/"
     },
     {
-        "name": "Firm Beliefs",
+        "name": "Convenire",
         "type": "Website",
         "tiles":"1",
-        "image":"images/examples/firm-beliefs.jpg",
+        "image":"images/examples/convenire.jpg",
         "intro":"A set of responsive templates for a site dedicated specifically to the conference venue experience.",
-        "description":"Striking design, did my best tog et the angles in there, a challenging layout. Highlight is the sliding enquiry form.",
+        "description":"Striking design, did my best tog et the angles in there, a challenging layout. Highlights include the side sliding enquiry form.",
         "link":"http://www.convenire.net"
     },
     {
@@ -196,5 +196,23 @@
         "intro":"An independent non-profit making body dedicated to promoting tea and herbal infusions.",
         "description":"Striking design, making accessibility a bit tricky, but still responsive, legible and most of all very pleasing to the client.",
         "link":"https://members.tea.co.uk/"
+    },
+    {
+        "name": "Campus Clothing",
+        "type": "app",
+        "tiles":"1",
+        "image":"images/examples/campus.jpg",
+        "intro":"Campus Clothing provides university merchandise for graduates, they needed a responsive website",
+        "description":"Strong modern design, I was given the freedom to create the navigation and functionality. Clean narrow screen behaviour.",
+        "link":"https://uk.campusclothing.com/"
+    },
+    {
+        "name": "Sage",
+        "type": "app",
+        "tiles":"1",
+        "image":"images/examples/sage.jpg",
+        "intro":"Building web components as part of an enterprise Sitecore solution for Sage, a global business software development firm.",
+        "description":"My current project, where I predominantly work in the user experience department, prototyping, testing, analysing, as well pitching to wider stakeholder of the business.",
+        "link":"https://uk.campusclothing.com/"
     }
 ]

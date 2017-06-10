@@ -7,10 +7,6 @@
     <meta name="Keywords" content="Gunzalez, Ségun, Konibire, Ségun Konibire, Sheg, Shegun, Shegun Konibire, Web, Developer, Designer, Internet, Programmer, Technologist, JavaScript, CSS, HTML, HTML5, jQuery, PHP, WordPress, Arsenal" />
     <link rel="shortcut icon" type="image/x-icon" href="http://www.gunzalez.com/images/favicon.ico">
     <link rel="stylesheet" href="css/app.css">
-    <script src="js/angular.min.js"></script>
-    <script src="js/app.js"></script>
-
-    <!-- That's right buddy, no jQuery on this page -->
 
 </head>
 <body data-ng-controller="PortfolioListCtrl">
@@ -43,5 +39,7 @@
         <p>{{detail.description}}</p>
         <p data-ng-show="detail.url"><a href="{{detail.link}}" target="_blank">{{detail.link}}</a></p>
     </div>
+    <script src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
