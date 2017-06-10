@@ -46,6 +46,7 @@ angular.module('portfolioApp', [])
                 $scope.detail.image = $scope.examples[index].image;
                 $scope.detail.description = $scope.examples[index].description;
                 $scope.detail.link = $scope.examples[index].link;
+
                 if($scope.examples[index].link == '#'){
                     $scope.detail.url = false;
                 } else {

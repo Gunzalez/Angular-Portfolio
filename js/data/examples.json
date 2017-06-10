@@ -32,7 +32,7 @@
         "tiles":"1",
         "image":"images/examples/everest.jpg",
         "intro":"A reverse scrolling parallax website, shows of the significance of the Bally boot and the materials involved.",
-        "description":"A reverse scrolling parallax website, shows of the significance of the Bally boot and the materials involved. Sadly this site is no longer online, it was a real pain in the ass to build mind you. ",
+        "description":"A reverse scrolling parallax website, shows of the significance of the Bally boot and the materials involved. No longer online and a real pain in the ass to build mind you. ",
         "link":"#"
     },
     {
@@ -41,7 +41,7 @@
         "tiles":"1",
         "image":"images/examples/max.jpg",
         "intro":"Responsive templates for the luxury fashion, a solution to increase sales across desktop and/or mobile.",
-        "description":"Responsive templates for the luxury fashion, a solution to increase sales across desktop and/or mobile. I have this work somewhere but can't find it right now, lol.",
+        "description":"Nothing major, simply brochure wear, but the highlight of the project was the hand written responsive carousel.",
         "link":"http://gunzalez.com/pp/maxmara/city.html"
     },
     {
@@ -51,7 +51,7 @@
         "image":"images/examples/hg-1.jpg",
         "intro":"Magento eCommerce solution, bold design and clean mark-up. Fashion focused design website.",
         "description":"Magento eCommerce solution, bold design and clean mark-up. Fashion focused design website. First time with Magento, it is a decent application, widely used.",
-        "link":"http://www.huntergather.com/"
+        "link":"#"
     },
     {
         "name": "Nike Football",
@@ -59,7 +59,7 @@
         "tiles":"3",
         "image":"images/examples/nikefootball-1.jpg",
         "intro":"Built using the Adobe Web Content Management tool CQ5, extensive JavaScript running on a Java platform.",
-        "description":"Built using the Adobe Web Content Management tool CQ5, extensive JavaScript running on a Java platform. Nice to work with such cool imagery, site has been redesigned - http://www.nike.com/gb/en_gb/c/football",
+        "description":"Built using the Adobe Web Content Management tool CQ5, extensive JavaScript running on a Java platform. Nice to work with such cool imagery, site has now been redesigned",
         "link":"#"
     },
     {
@@ -68,7 +68,7 @@
         "tiles":"3",
         "image":"images/examples/samsung.jpg",
         "intro":"A 3D-like fly-through, showcasing the very smart Samsung Smart TV, fun with JavaScript and clever imagery.",
-        "description":"A 3D-like fly-through, showcasing the very smart Samsung Smart TV, fun with JavaScript and clever imagery. Different to what I normally do, it took 4 weeks, at week one I had no clue how do do any of it.",
+        "description":"A 3D-like fly-through, showcasing the very smart Samsung Smart TV, fun with JavaScript and clever imagery. Took for weeks, in week one I had no idea where to start",
         "link":"http://gunzalez.com/pp/samsung/"
     },
     {
@@ -78,7 +78,7 @@
         "image":"images/examples/yam.jpg",
         "intro":"Developed using the cross browser jQuery Mobile framework.",
         "description":"Developed using the cross browser jQuery Mobile framework. My own little project, I will redo this in Angular.js, then iOS, make a hundred million and buy a boat. You'll need an iPhone to view I'm afraid.",
-        "link":"http://www.gunzalez.com/pp/poundedyam/"
+        "link":"#"
     },
     {
         "name": "VW Car Configurator",
@@ -86,25 +86,115 @@
         "tiles":"3",
         "image":"images/examples/vw-2.jpg",
         "intro":"Bespoke application for a car configurator, use of advanced JavaScript patterns.",
-        "description":"Bespoke application for a car configurator, use of advanced JavaScript patterns. JavaScript on steroids, basically in-house MVC-ish coding before Backbone and Angular days. Rebuilt now - http://www.vw.com/portal/en/configurator",
+        "description":"7 years ago now, a bespoke application for a car configurator, very heavy JavaScript, what a library would be prefect for today.",
         "link":"#"
     },
     {
-        "name": "Nissan Car Configurator",
-        "type": "app",
+        "name": "Nissa",
+        "type": "Website",
         "tiles":"3",
         "image":"images/examples/nissan-1.jpg",
-        "intro":"Customisation css framework, JavaScript widget development and CSS3 transitions.",
-        "description":"Customisation css framework, JavaScript widget development and CSS3 transitions. Pushing CCS3 to the limit, Bootstrap, sadly no longer online - http://www.vw.com/portal/en/configurator",
-        "link":"#"
+        "intro":"Shows of the vehicle using latest web technology at the time Parallax.",
+        "description":"Another brochure site, using the latest back then Parallax, do show of cool image of the car, simples.",
+        "link":"http://gunzalez.com/pp/nissan/"
     },
     {
         "name": "Pattern Studios",
         "type": "Website",
         "tiles":"1",
         "image":"images/examples/patternstudios-1.jpg",
-        "intro":"Responsive website, powered by WordPress, this version is hosted on my web space",
-        "description":"Responsive website, powered by WordPress, this version is hosted on my domain and so only top menu works, or see it on - http://patternstudios.com/what-we-do/",
-        "link":"http://gunzalez.com/pp/patternstudios/"
+        "intro":"Responsive website, powered by WordPress.",
+        "description":"Slaved on this sucker for ages and never got paid for it, templates were never used and sits empty on my server.",
+        "link":"http://patternstudios.com/what-we-do"
+    },
+    {
+        "name": "Breakfast Cereal Information Service",
+        "type": "Website",
+        "tiles":"1",
+        "image":"images/examples/bcis.jpg",
+        "intro":"A set of responsive templates for a health service organisation.",
+        "description":"Usual suspects, CSS, HTML and JS, with attention given to backward compatibility, plus another hand coded carousel.",
+        "link":"http://gunzalez.com/pp/bcis/"
+    },
+    {
+        "name": "Murray Machinery",
+        "type": "Website",
+        "tiles":"1",
+        "image":"images/examples/murray-machinery.jpg",
+        "intro":"A set of responsive templates for a farm and large machine making firm.",
+        "description":"Slick modern design, app like mobile behaviour. The highlight of this project is the responsive form switcher on the home.",
+        "link":"http://gunzalez.com/pp/mmachinery/"
+    },
+    {
+        "name": "Firm Beliefs",
+        "type": "Website",
+        "tiles":"1",
+        "image":"images/examples/firm-beliefs.jpg",
+        "intro":"A set of responsive templates for a business development and consulting agency.",
+        "description":"Bold design, with strong colours ad a modern layout, using just CSS, HTML and JS.",
+        "link":"http://gunzalez.com/pp/firmbeliefs/"
+    },
+    {
+        "name": "Firm Beliefs",
+        "type": "Website",
+        "tiles":"1",
+        "image":"images/examples/firm-beliefs.jpg",
+        "intro":"A set of responsive templates for a site dedicated specifically to the conference venue experience.",
+        "description":"Striking design, did my best tog et the angles in there, a challenging layout. Highlight is the sliding enquiry form.",
+        "link":"http://www.convenire.net"
+    },
+    {
+        "name": "Group Kit",
+        "type": "app",
+        "tiles":"1",
+        "image":"images/examples/group-kit.jpg",
+        "intro":"Responsive templates for a web app in the business of selling customisable garments for special occasions.",
+        "description":"Clean intuitive design, make it look nice and work even better, usability and simplicity were very important.",
+        "link":"http://gunzalez.com/pp/groupkit/"
+    },
+    {
+        "name": "Craibstone",
+        "type": "Website",
+        "tiles":"1",
+        "image":"images/examples/craibstone.jpg",
+        "intro":"Responsive templates for golfing course and catering firm.",
+        "description":"Using JavaScript, HTML and CSS to build a few difficult web forms, some challenging aspects in bespoke calendar widget too.",
+        "link":"http://gunzalez.com/pp/craibstone/"
+    },
+    {
+        "name": "Hatty Blue",
+        "type": "Website",
+        "tiles":"1",
+        "image":"images/examples/hatty-blue.jpg",
+        "intro":"Responsive web templates for a London based recruitment agency.",
+        "description":"HTML, CSS and JavaScript build a tricky design from a print background, a bit of patience got us there in the end.",
+        "link":"http://www.hattyblue.co.uk/"
+    },
+    {
+        "name": "Hatty Blue",
+        "type": "Website",
+        "tiles":"1",
+        "image":"images/examples/tap.jpg",
+        "intro":"Website for a group comprising of experts areas of public health, general practice, nutrition and diet.",
+        "description":"Bold and modern design, responsive to work on larger and narrow screens, bespoke colour-coded slide out navigation was fun.",
+        "link":"http://www.teaadvisorypanel.com/"
+    },
+    {
+        "name": "Pound That Yam",
+        "type": "app",
+        "tiles":"1",
+        "image":"images/examples/pounding.jpg",
+        "intro":"Nigerian food recipe application, still a work in progress...",
+        "description":"Private exercise and practise with JavaScript frameworks - Angular JS, as well as a REST api via a Mongo/Postgres data source.",
+        "link":"http://pounding.herokuapp.com/"
+    },
+    {
+        "name": "UK Tea & Infusions Association",
+        "type": "app",
+        "tiles":"1",
+        "image":"images/examples/uktia.jpg",
+        "intro":"An independent non-profit making body dedicated to promoting tea and herbal infusions.",
+        "description":"Striking design, making accessibility a bit tricky, but still responsive, legible and most of all very pleasing to the client.",
+        "link":"https://members.tea.co.uk/"
     }
 ]
