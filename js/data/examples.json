@@ -5,7 +5,7 @@
         "tiles":"4",
         "image":"images/examples/nikewomen-1.jpg",
         "intro":"Innovative use of JavaScript, integration into Freemarker IDE which work on XML and XSD documents.",
-        "description":"Innovative use of JavaScript, integration into Freemarker IDE which work on XML and XSD documents. Site has been redesigned a few times since - http://www.nike.com/gb/en_gb/c/women",
+        "description":"Innovative use of JavaScript, integration into Freemarker IDE which work on XML and XSD documents.",
         "link":"#"
     },
     {
@@ -14,7 +14,7 @@
         "tiles":"3",
         "image":"images/examples/netjets-1.jpg",
         "intro":"Frontend development using the IBM WebSphere Portal, collaborative team work across 4 continents.",
-        "description":"Frontend development using the IBM WebSphere Portal, collaborative team work across 4 continents. This site has been rebuilt since this version was done - http://www.netjetseurope.com",
+        "description":"Frontend development using the IBM WebSphere Portal, collaborative team work across 4 continents.",
         "link":"#"
     },
     {
@@ -70,16 +70,7 @@
         "intro":"A 3D-like fly-through, showcasing the very smart Samsung Smart TV, fun with JavaScript and clever imagery.",
         "description":"A 3D-like fly-through, showcasing the very smart Samsung Smart TV, fun with JavaScript and clever imagery. Took for weeks, in week one I had no idea where to start",
         "link":"http://gunzalez.com/pp/samsung/"
-    },
-    {
-        "name": "Pounded Yam",
-        "type": "app",
-        "tiles":"3",
-        "image":"images/examples/yam.jpg",
-        "intro":"Developed using the cross browser jQuery Mobile framework.",
-        "description":"Developed using the cross browser jQuery Mobile framework. My own little project, I will redo this in Angular.js, then iOS, make a hundred million and buy a boat. You'll need an iPhone to view I'm afraid.",
-        "link":"#"
-    },
+    },    
     {
         "name": "VW Car Configurator",
         "type": "app",
@@ -113,8 +104,8 @@
         "tiles":"1",
         "image":"images/examples/bcis.jpg",
         "intro":"A set of responsive templates for a health service organisation.",
-        "description":"Usual suspects, CSS, HTML and JS, with attention given to backward compatibility, plus another hand coded carousel.",
-        "link":"http://gunzalez.com/pp/bcis/"
+        "description":"Using CSS, HTML and JS, with attention given to backward compatibility, as it needed to work on older browsers.",
+        "link":"http://www.breakfastcereal.org/"
     },
     {
         "name": "Murray Machinery",
@@ -123,7 +114,7 @@
         "image":"images/examples/murray-machinery.jpg",
         "intro":"A set of responsive templates for a farm and large machine making firm.",
         "description":"Slick modern design, app like mobile behaviour. The highlight of this project is the responsive form switcher on the home.",
-        "link":"http://gunzalez.com/pp/mmachinery/"
+        "link":"http://www.murraymachinery.com/"
     },
     {
         "name": "Firm Beliefs",
@@ -159,7 +150,7 @@
         "image":"images/examples/craibstone.jpg",
         "intro":"Responsive templates for golfing course and catering firm.",
         "description":"Using JavaScript, HTML and CSS to build a few difficult web forms, some challenging aspects in bespoke calendar widget too.",
-        "link":"http://gunzalez.com/pp/craibstone/"
+        "link":"http://www.marshall-leisure.co.uk/"
     },
     {
         "name": "Hatty Blue",
@@ -213,6 +204,15 @@
         "image":"images/examples/sage.jpg",
         "intro":"Building web components as part of an enterprise Sitecore solution for Sage, a global business software development firm.",
         "description":"My current project, where I predominantly work in the user experience department, prototyping, testing, analysing, as well pitching to wider stakeholder of the business.",
-        "link":"https://uk.campusclothing.com/"
+        "link":"https://www.sage.com/en-us/"
+    },
+    {
+        "name": "Transport for Greater Manchester",
+        "type": "app",
+        "tiles":"1",
+        "image":"images/examples/tfgm.jpg",
+        "intro":"Developing a clean intuitive responsive interface for the Transport for Greater Manchester service",
+        "description":"Building accessible user interfaces, using Angular JS and with an introduction to the Inuit CSS framework.",
+        "link":"https://www.tfgm.com/"
     }
 ]
